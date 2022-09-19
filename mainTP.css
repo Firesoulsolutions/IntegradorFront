@@ -1,0 +1,94 @@
+#Logo{
+    color: white;
+}
+#menuTop{
+    color:white;
+    
+}
+#menuTop>stan{
+    padding: 1rem;
+}
+#menuTop>a{
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(21, 199, 21);
+}
+  
+
+.header{
+    background-color: rgb(22, 22, 22);
+}
+body>main>h1{
+    text-align: center;
+}
+body>main>h2{
+    text-align: center;
+    font-size: medium;
+}
+ #octubre{
+    background-color: rgb(22, 22, 22); 
+    color: white;
+    margin-left: 0rem;
+} 
+#octubre>h1{
+   font-size: 2rem;
+} 
+.quieroSerOrador>h2{
+    text-align: center;
+    font-size: medium;
+}
+.quieroSerOrador>h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.quieroSerOrador>p{
+    text-align: center;
+    
+}
+
+#TextArea>p{
+    text-align: start;
+}
+
+#btnEnviar{
+    background-color: rgb(126, 241, 115);
+    border-radius: 0.5rem; 
+    width:100%;
+    
+}
+ #PieDePagina{
+    background-color:skyblue;
+    text-align: center;
+   
+}
+#PieDePagina>stan{
+    color: blueviolet;
+   
+}
+
+#titulos>h2{
+    text-align: center;
+    font-size: medium;
+    
+    
+}
+
+#titulos>h1{
+    text-align: center;
+    font-size: 1.5rem;
+    
+    
+    
+}
+ #jumbotron{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/ba11.jpg);
+        min-height: 500px;
+        background-size: cover;
+        background-position: center;
+        
+   
+ 
+}
+ 
+ 
