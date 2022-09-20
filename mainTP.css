@@ -123,26 +123,5 @@ body>main>h2{
     width: 1.5rem;
     height: 1.5rem;
 }
-#btnReserva{
-    background: #0066A2;
-    color: white;
-    border-style: outset;
-    border-color: #0066A2;
-    height: 5%;
-    width: 10%;
-    font: bold15px arial,sans-serif;
-    text-shadow: none;
-    font-size: 1.5rem;
-}
-#btnVolver{
-    background: #0066A2;
-    color: white;
-    border-style: outset;
-    border-color: #0066A2;
-    height: 5%;
-    width: 10%;
-    font: bold15px arial,sans-serif;
-    text-shadow: none;
-    font-size: 1.5rem;
-}
+
  
