@@ -1,3 +1,5 @@
+/* css para pagina principal */
+
 #Logo{
     color: white;
 }
@@ -90,5 +92,57 @@ body>main>h2{
    
  
 }
- 
+/* css para formulario compras */
+#bodyCompraticket {
+    background-color: rgb(22, 22, 22);
+    background-image: url("image/ba3.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
+    text-align: center;
+}
+#bodyCompraticket>h1{
+    color: rgb(113, 244, 43);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#formulario{
+    color: rgb(113, 244, 43);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+#checkbox{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#btnReserva{
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 5%;
+    width: 10%;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    font-size: 1.5rem;
+}
+#btnVolver{
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 5%;
+    width: 10%;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    font-size: 1.5rem;
+}
  
