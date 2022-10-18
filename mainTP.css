@@ -93,35 +93,19 @@ body>main>h2{
  
 }
 /* css para formulario compras */
-#bodyCompraticket {
+.headerTicket{
     background-color: rgb(22, 22, 22);
-    background-image: url("image/ba3.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: contain;
-    text-align: center;
 }
-#bodyCompraticket>h1{
-    color: rgb(113, 244, 43);
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: bold;
+#PieDePaginaTicket{
+    background-color:skyblue;
     text-align: center;
-    text-decoration: underline;
+   
+}
+#PieDePaginaTicket>stan{
+    color: blueviolet;
+   
 }
 
 
-#formulario{
-    color: rgb(113, 244, 43);
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: bold;
-    
-}
-#checkbox{
-    width: 1.5rem;
-    height: 1.5rem;
-}
 
  
