@@ -34,12 +34,12 @@
             </nav>
            
     </div><br>
-    <!--  tarjetas de oradores -->
+    <!--  tarjetas descuentos -->
     
-    <div class="conainer mx-0">
+    <div class="conainer mx-0 ">
         <div class="row p-5">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card border-primary" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title text-center p-2 fs-2">Estudiante</h5>
                         <p class="card-text text-center fs-4">Tiene un descuento</p>
@@ -51,7 +51,7 @@
                 
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card border-success" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title text-center p-2 fs-2">Trainee</h5>
                         <p class="card-text text-center fs-4">Tiene un descuento</p>
@@ -62,7 +62,7 @@
                 
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card border-warning" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title text-center p-2 fs-2">Junior</h5>
                         <p class="card-text text-center fs-4">Tiene un descuento</p>
@@ -73,11 +73,16 @@
                 
             </div>
         </div>
-</div>
+    </div>
+</div><br>
+<div id="titulosVenta">
+    <h2>VENTA</h2>
+    <H1>VALOR DE TICKET $200</H1>
 </div><br>
 
+<!-- formulario de compra -->
     <div class="container">   
-        <form action="dato.html" method="post">
+        <form >
             <div class="container text-center">
                 <div class="row">
                     <div class="col-6">
@@ -88,13 +93,48 @@
                     </div>
                     <div class="col p-3">
                         <input type="email" class="form-control" id="compraTicketEmail" placeholder="Correo" required>
-                   </div>
+                    </div>
+                    <div class="row p-2 text-start" >
+                        <div class="col-6 ">
+                            <label>Cantidad</label>
+                        </div>
+                        <div class="col-6">
+                            <label>Categoria</label>
+                        </div>
+                   
+                    </div>
+
+                    <div class="col-6">
+                        <input type="number" class="form-control" id="cantidadTicket" min="1" pattern="^[0-9]+"placeholder="cantidad" required>
+                    </div>
+                    <div  class="col-6">
+                        <select id="selector" class="form-select" aria-label="Default select example">
+                            
+                            <option value="1">Estudiante</option>
+                            <option value="2">Trainee</option>
+                            <option value="3">Junior</option>
+                        </select>
+                    </div>
+                    
              
                 </div><br>
-          
+                <div class="container text-center">
+                    <div class="total">
+                        <p>Total a Pagar: $ <label id="monto">0</label></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn  btn-lg" id="btn_borrar" onclick="borrar()">Borrar</button>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn  btn-lg" id="btn_resumen" onclick="calcular()">Resumen</button>
+                        </div>
+                    </div>
+                </div>
        
         </form><br>
     </div>
+
 
     <footer>
         <div class="container text-center">
